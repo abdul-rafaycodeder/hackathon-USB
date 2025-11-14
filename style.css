@@ -6,6 +6,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* navbar section */
+
 nav {
     width: 100%;
     /* background-color: aqua; */
@@ -14,6 +22,7 @@ nav {
     justify-content: space-between;
     height: 100px;
     padding: 10px 30px;
+    box-shadow: 0px 0px 5px;
 }
 
 .brand-logo {
@@ -49,7 +58,7 @@ a {
 
 a:hover {
     color: #4CAF4F;
-     padding: 12px 12px;
+    padding: 12px 12px;
 }
 
 
@@ -64,6 +73,87 @@ a:hover {
 }
 
 .nav-btn:hover {
-    background-color: #327234;
     padding: 12px;
 }
+
+
+/* hero section */
+
+#hero-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 70px;
+}
+
+.title>h1 {
+    font-size: 3em;
+}
+
+.title>p {
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h1 {
+    color: #4CAF4F;
+}
+
+.hero-btn {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4CAF4F;
+    color: white;
+    font-weight: 500;
+    padding: 5px 30px;
+    text-align: center;
+    align-items: center;
+
+    transition: all ease-in-out 0.5s;
+    margin-top: 20px;
+}
+
+.hero-btn:hover {
+    background-color: #327234;
+
+}
+
+ /* company section  */
+
+
+#company-section{
+    margin-top: 30px;
+    
+}
+
+.Our-Clients>h3{
+    text-align: center;
+    font-size: 50px;
+}
+
+.Our-Clients>p{
+    color: gray;
+    text-align: center;
+}
+
+.company-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.company-logo>img{
+    width: 100px;
+}
+
+ /* community section  */
+
+ #community{
+    background-color: #4CAF4F;
+    margin-top: 50px;
+ }
+
+ .community{
+    
+ }
