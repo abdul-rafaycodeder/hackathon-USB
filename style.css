@@ -129,6 +129,12 @@ a:hover {
 
 }
 
+.hero-img>img{
+    width: 100%;
+
+}
+
+
 /* company section  */
 
 
@@ -157,7 +163,7 @@ a:hover {
 }
 
 .company-logo>img {
-    width: 100px;
+    width: 110px;
 }
 
 /* community section  */
@@ -238,6 +244,7 @@ a:hover {
 
 }
 
+
 /* business section  */
 
 #business {
@@ -316,7 +323,7 @@ a:hover {
     position: relative;
     left: 680px;
     bottom: 40px;
-    width: 300px;
+    width: 500px;
 }
 
 /* business 4 section */
