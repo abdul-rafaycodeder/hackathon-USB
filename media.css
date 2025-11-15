@@ -1,0 +1,18 @@
+@media screen and (max-width: 991px) {
+
+    .hamburgar {
+        display: block;
+    }
+
+    .nav-links {
+
+        display: none;
+
+    }
+
+    .company-logo{
+        flex-wrap: wrap;
+        /* gap: 200px; */
+    }
+
+}
